@@ -84,7 +84,21 @@
 # #### Booleanos (`bool`)
 
 # 16. Escreva um programa que avalie duas expressões booleanas inseridas pelo usuário e retorne o resultado da operação AND entre elas.
+# bool_01 = input('informe o primeiro valor booleano')
+# bool_02 = input('informe o segundo valor booleano')
+# bool_01 = bool_01.lower() == 'true'
+# bool_02 = bool_02.lower() == 'true'
+# resultado = bool_01 and bool_02
+# print(resultado)
+
 # 17. Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.
+# bool_01 = input('informe o primeiro valor booleano')
+# bool_02 = input('informe o segundo valor booleano')
+# bool_01 = bool_01.lower() == 'true'
+# bool_02 = bool_02.lower() == 'true'
+# resultado = bool_01 or bool_02
+# print(resultado)
+
 # 18. Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
 # 19. Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
 # 20. Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
