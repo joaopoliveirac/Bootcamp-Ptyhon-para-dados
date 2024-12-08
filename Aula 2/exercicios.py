@@ -106,7 +106,41 @@
 # #### try-except e if
 
 # 21: Conversor de Temperatura
+# try:
+#     celsius = float(input("Digite a temperatura em Celsius: "))
+#     fahrenheit = (celsius * 9/5) + 32
+#     print(f"{celsius}°C é igual a {fahrenheit}°F.")
+# except ValueError:
+#     print("Por favor, digite um número válido para a temperatura.")
 # 22: Verificador de Palíndromo
+# entrada = input("Digite uma palavra ou frase: ")
+# if isinstance(entrada, str):
+#     formatado = entrada.replace(" ", "").lower()
+#     if formatado == formatado[::-1]:
+#         print("É um palíndromo.")
+#     else:
+#         print("Não é um palíndromo.")
+# else:
+#     print("Entrada inválida. Por favor, digite uma palavra ou frase.")
+
 # 23: Calculadora Simples
+# try:
+#     numero1 = float(input('digite o primeiro numero'))
+#     numero2 = float(input('digite o segundo numero'))
+#     operador = input("Digite o operador (+, -, *, /): ")
+#     if operador == '+':
+#         resultado = numero1 + numero2
+#     elif operador == '-':
+#         resultado = numero1 - numero2
+#     elif operador == '*':
+#         resultado = numero1 * numero2
+#     elif operador == '/':
+#         resultado = numero1 / numero2
+#     else:
+#         print('operador invalido ou divisao por zero.')
+#     print(resultado)
+# except ValueError:
+#     print('entrada invalida, insira números.')
+
 # 24: Classificador de Números
 # 25: Conversão de Tipo com Validação
