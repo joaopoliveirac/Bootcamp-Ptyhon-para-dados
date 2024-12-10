@@ -35,14 +35,28 @@
 # print(dicionario)
 
 # 5- Dada a lista ["maçã", "banana", "cereja"] e o dicionário {"maçã": 0.45, "banana": 0.30, "cereja": 0.65}, calcule o preço total da lista de compras.
-lista = ["maçã", "banana", "cereja",'cereja','banana']
-dicionario = {"maçã": 0.45, "banana": 0.30, "cereja": 0.65}
-preco_total = 0
+# lista = ["maçã", "banana", "cereja",'cereja','banana']
+# dicionario = {"maçã": 0.45, "banana": 0.30, "cereja": 0.65}
+# preco_total = 0
 
-for produto in lista:
-    if produto in dicionario:
-        preco_total += dicionario[produto]
-    else:
-        pass
+# for produto in lista:
+#     if produto in dicionario:
+#         preco_total += dicionario[produto]
+#     else:
+#         pass
 
-print(preco_total)
+# print(preco_total)
+
+# Objetivo: Dada uma lista de emails, remover todos os duplicados.
+# Objetivo: Dada uma lista de idades, filtrar apenas aquelas que são maiores ou iguais a 18.
+# Objetivo: Dada uma lista de dicionários representando pessoas, ordená-las pelo nome.
+# Objetivo: Dado um conjunto de números, calcular a média.
+# Objetivo: Dada uma lista de valores, dividir em duas listas: uma para valores pares e outra para ímpares.
+# Objetivo: Dada uma lista de dicionários representando produtos, atualizar o preço de um produto específico.
+# Objetivo: Dados dois dicionários, fundi-los em um único dicionário.
+# Objetivo: Dado um dicionário de estoque de produtos, filtrar aqueles com quantidade maior que 0.
+# Objetivo: Dado um dicionário, criar listas separadas para suas chaves e valores.
+# Objetivo: Dada uma string, contar a frequência de cada caractere usando um dicionário.
+
+
+
