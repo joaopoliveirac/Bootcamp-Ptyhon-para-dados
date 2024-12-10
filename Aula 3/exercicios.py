@@ -57,6 +57,11 @@
 # transações suspeitas. Uma transação é considerada suspeita se o valor for superior 
 # a R$ 10.000 ou se ocorrer fora do horário comercial (antes das 9h ou depois das 18h). 
 # Dada uma transação como `transacao = {'valor': 12000, 'hora': 20}`, verifique se ela é suspeita.
+# transacao = {'valor': 12000, 'hora': 20}
+
+# if transacao['valor'] > 10000 and 9 < transacao['hora'] > 18:
+#     print('transação suspeita!')
+
 
 ### Exercício 6. Contagem de Palavras em Textos
 # Objetivo:** Dado um texto, contar quantas vezes cada palavra única aparece nele.
@@ -78,33 +83,94 @@
 
 ### Exercício 7. Normalização de Dados
 # Objetivo:** Normalizar uma lista de números para que fiquem na escala de 0 a 1.
+# lista = [10,20,30,40,50]
+# minimo = min(lista)
+# maximo = max(lista)
 
-
+# lista_escala = [(x - minimo) / (maximo - minimo) for x in lista]
+# print(lista_escala)
 
 ### Exercício 8. Filtragem de Dados Faltantes
 # Objetivo:** Dada uma lista de dicionários representando dados de usuários, filtrar aqueles que têm um campo específico faltando
+# usuarios = [
+#     {"nome": "Alice", "email": "alice@example.com"},
+#     {"nome": "Bob", "email": ""},
+#     {"nome": "Carol", "email": "carol@example.com"}
+# ]
+
+# usuarios_validos = [usuario for usuario in usuarios if usuario['email'] ]
+# print(usuarios_validos)
 
 
 
 ### Exercício 9. Extração de Subconjuntos de Dados
 # Objetivo:** Dada uma lista de números, extrair apenas aqueles que são pares.
+# lista_todos = [2,4,9,7,6,8,95,100,72,93,48,47,63,90]
+
+# lista_pares = [numero for numero in lista_todos if numero % 2 == 0]
+# print(lista_pares)
+
 
 ### Exercício 10. Agregação de Dados por Categoria
 # Objetivo:** Dado um conjunto de registros de vendas, calcular o total de vendas por categoria.
+# vendas = [
+#     {"categoria": "eletrônicos", "valor": 1200},
+#     {"categoria": "livros", "valor": 200},
+#     {"categoria": "eletrônicos", "valor": 800}
+# ]
+
+# venda_categoria = {}
+
+# for venda in vendas:
+#     categoria = venda['categoria']
+#     valor = venda['valor']
+#     if categoria in venda_categoria:
+#         venda_categoria[categoria] += valor
+#     else:
+#         venda_categoria[categoria] = valor
+
+# print(venda_categoria)
+
 
 ### Exercícios com WHILE
 
 ### Exercício 11. Leitura de Dados até Flag
 # Ler dados de entrada até que uma palavra-chave específica ("sair") seja fornecida.
+# lista = []
+# dados_entrada = input('informe os dados ou sair para sair.').lower()
 
+# while dados_entrada != 'sair':
+#     dados_entrada = input('informe os dados ou sair para sair.').lower()
+        
 ### Exercício 12. Validação de Entrada
 # Solicitar ao usuário um número dentro de um intervalo específico até que a entrada seja válida.
+# numero = float(input('informe um numero dentro de 1 a 100: '))
+
+# while not 1 < numero < 100:
+#     print('numero invalido.')
+#     numero = float(input('informe um numero dentro de 1 a 100: '))
 
 ### Exercício 13. Consumo de API Simulado
 # Simular o consumo de uma API paginada, onde cada "página" de dados é processada em loop até que não haja mais páginas.
+# api = 10
+
+# while api > 0:
+#     print('processando os dados!')
+#     api -= 1
+
+# print('todas as paginas foram processadas.')
 
 ### Exercício 14. Tentativas de Conexão
 # Simular tentativas de reconexão a um serviço com um limite máximo de tentativas.
+# tentativa = 0
+# limite = 10
+
+# while tentativa < limite:
+#     print('tentando conexão')
+#     tentativa += 1
+
+# print('tentativas esgotadas.')
+
 
 ### Exercício 15. Processamento de Dados com Condição de Parada
 # Processar itens de uma lista até encontrar um valor específico que indica a parada.

@@ -15,7 +15,7 @@ while not nome_valido:
         if len(nome) == 0:
             raise ValueError("O nome não pode estar vazio.")
         # Verifica se há números no nome
-        elif any(char.isdigit() for char in nome):
+        elif nome.isdigit():
             raise ValueError("O nome não deve conter números.")
         else:
             print("Nome válido:", nome)
