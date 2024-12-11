@@ -47,16 +47,21 @@
 
 # print(preco_total)
 
-# Objetivo: Dada uma lista de emails, remover todos os duplicados.
-# Objetivo: Dada uma lista de idades, filtrar apenas aquelas que são maiores ou iguais a 18.
-# Objetivo: Dada uma lista de dicionários representando pessoas, ordená-las pelo nome.
-# Objetivo: Dado um conjunto de números, calcular a média.
-# Objetivo: Dada uma lista de valores, dividir em duas listas: uma para valores pares e outra para ímpares.
-# Objetivo: Dada uma lista de dicionários representando produtos, atualizar o preço de um produto específico.
-# Objetivo: Dados dois dicionários, fundi-los em um único dicionário.
-# Objetivo: Dado um dicionário de estoque de produtos, filtrar aqueles com quantidade maior que 0.
-# Objetivo: Dado um dicionário, criar listas separadas para suas chaves e valores.
-# Objetivo: Dada uma string, contar a frequência de cada caractere usando um dicionário.
+# 6- Objetivo: Dada uma lista de emails, remover todos os duplicados.
+# 7- Objetivo: Dada uma lista de idades, filtrar apenas aquelas que são maiores ou iguais a 18.
+# 8- Objetivo: Dada uma lista de dicionários representando pessoas, ordená-las pelo nome.
+# 9- Objetivo: Dado um conjunto de números, calcular a média.
+# 10- Objetivo: Dada uma lista de valores, dividir em duas listas: uma para valores pares e outra para ímpares.
+# 11- Objetivo: Dada uma lista de dicionários representando produtos, atualizar o preço de um produto específico.
+# 12- Objetivo: Dados dois dicionários, fundi-los em um único dicionário.
+# 13- Objetivo: Dado um dicionário de estoque de produtos, filtrar aqueles com quantidade maior que 0.
+# 14- Objetivo: Dado um dicionário, criar listas separadas para suas chaves e valores.
+# 15- Objetivo: Dada uma string, contar a frequência de cada caractere usando um dicionário.
+# 16- Escreva uma função que receba uma lista de números e retorne a soma de todos os números.
+# 17- Crie uma função que receba um número como argumento e retorne True se o número for primo e False caso contrário.
+# 18- Desenvolva uma função que receba uma string como argumento e retorne essa string revertida.
+# 19- Implemente uma função que receba dois argumentos: uma lista de números e um número. A função deve retornar todas as combinações de pares na lista que somem ao número dado.
+# 20- Escreva uma função que receba um dicionário e retorne uma lista de chaves ordenadas
 
 
 

@@ -12,3 +12,4 @@ print(produtos)
 #produtos.pop()
 produtos.remove(produto_2)
 print(produtos)
+
